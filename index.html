@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@200;300;400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="/new/favicon-32x32.png">
+</head>
+<style>
+    
+    body {
+        background-image: url(/new/bg-intro-desktop.png);
+        background-color:hsl(0, 100%, 74%) ;
+        
+        
+    }
+    .body1 {
+        display: flex;
+        gap: 45px;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 200px;
+        font-family: Poppins;
+        box-sizing: border-box;
+        
+        
+    }
+    .body2 {
+        margin-top: 20px;
+        
+    }
+
+    .body3 {
+        margin: 0 auto;
+        background-color: #fff;
+        width: 350px;
+        padding: 18px;
+        box-sizing: border-box;
+        padding: 4px 4px;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0.5, 0.4);
+        
+        
+        }
+        .button1 {
+            border: none;
+            margin-bottom: 20px;
+            padding: 15px 50px;
+            color: white;
+            border-radius: 5px;
+            background-color: hsl(248, 32%, 49%);
+            
+            width: 350px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        
+        }
+        
+        .button1  .bold{
+            font-weight: bold;
+        }
+        .button2 {
+            border: none;
+            color: white;
+            background-color: hsl(154, 59%, 51%);
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            
+        }
+        .mr-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin: 20px auto;
+            width: 250px;
+            padding: 18px 18px;
+            box-sizing: border-box;
+        }
+        h1, p {
+            color: white;
+            
+            width: 400px;
+            
+               
+        }
+
+        
+        p {
+            font-size: 15px;
+            line-height: 25px;
+        }
+        .last-p {
+            color: hsl(249, 10%, 26%);
+            font-weight: 2px;
+            width: 250px;
+            font-size: 7px;
+            line-height: 10px;
+            margin:auto 0;
+            text-align: center;
+            
+        }
+        .last-p span {
+            color: hsl(0, 100%, 74%) ;
+        }
+        .button-input {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 50%;
+            
+            
+        }
+        .mr-form input {
+            padding: 10px 13px;
+            width: 250px;
+            box-sizing: border-box;
+            
+
+        }
+        h1 {
+            font-size: 45px;
+            box-sizing: border-box;
+            line-height: 50px;
+            width: 380px;
+        }
+        @media(max-width:375px){
+            .body1{
+                flex-direction: column;
+            }
+        }
+</style>
+
+<body>
+    <div class="body1">
+        <div class="body2">
+            <h1>
+                Learn to code by watching others
+            </h1>
+            <p>
+                See how experience developers solve problems in real-time.
+                Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </div>
+        <div button-input>
+            <div button-body>
+                <button class="button1">
+                    Try it free 7days then $20/mo.thereafter
+                </button>
+            </div>
+            <div class="body3" >
+               <form action="" class="mr-form">
+                    
+                    <input type="text" id="fname" name="fname" placeholder="Firstname" required>
+                    <input type="text" id="lname" name="lname" placeholder="Lastname" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="password" id="pwd" name="pwd" placeholder="password" required>
+                    <input type="submit"  class="button2"  value="CLAIM YOUR FREE TRIAL">
+                    <p class="last-p">
+                        By clicking the button, you are agreeing to our <span> Terms and services</span>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
